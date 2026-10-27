@@ -1,0 +1,17 @@
+{
+  "name": "articulos-oficina-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API REST para administrar artículos de oficina",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
